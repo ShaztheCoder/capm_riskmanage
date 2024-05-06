@@ -73,3 +73,8 @@ resources:
     parameters:
       service: hana
       service-plan: hdi-shared
+  - name: RiskManagement-audit
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: auditlog-viewer
+      service-plan: free
